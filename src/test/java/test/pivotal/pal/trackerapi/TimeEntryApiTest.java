@@ -125,3 +125,13 @@ public class TimeEntryApiTest {
         return response.getBody().getId();
     }
 }
+
+
+//curl -v -XDELETE -H"Content-Type: application/json" pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io/time-entries/1
+
+//curl -v -XPUT -H"Content-Type: application/json" pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io/time-entries/1 -d"{\"projectId\": 88, \"userId\": 99, \"date\": \"2019-01-01\", \"hours\": 8}"
+//
+//curl -v pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io/time-entries
+//curl -v pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io/time-entries/${TIME_ENTRY_ID}
+
+//curl -v -XPOST -H"Content-Type: application/json" pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
