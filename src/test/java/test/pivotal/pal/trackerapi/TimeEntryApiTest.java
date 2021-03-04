@@ -140,7 +140,12 @@ public class TimeEntryApiTest {
     }
 }
 
+//docker run -i -t --rm -e DURATION=300 -e NUM_USERS=100 -e REQUESTS_PER_SECOND=50 -e URL=http://pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io pivotaleducation/loadtest
+//docker run -i -t --rm -e DURATION=300 -e NUM_USERS=100 -e REQUESTS_PER_SECOND=50 -e URL=http://pal-tracker-${UNIQUE_IDENTIFIER}.${DOMAIN} pivotaleducation/loadtest
+//curl -v -XPOST -H "Content-Length:0"  http://pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io/actuator/palTrackerFailure
 
+//docker run -i -t --rm -e DURATION=300 -e NUM_USERS=10 -e REQUESTS_PER_SECOND=5 -e URL=http://pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io pivotaleducation/loadtest
+//docker run -i -t --rm -e DURATION=300 -e NUM_USERS=10 -e REQUESTS_PER_SECOND=5 -e URL=http://pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io  pivotaleducation/loadtest
 //curl -v -XDELETE -H"Content-Type: application/json" pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io/time-entries/1
 
 //curl -v -XPUT -H"Content-Type: application/json" pal-tracker-pal-tracker-anki-narraula.apps.evans.pal.pivotal.io/time-entries/1 -d"{\"projectId\": 88, \"userId\": 99, \"date\": \"2019-01-01\", \"hours\": 8}"
