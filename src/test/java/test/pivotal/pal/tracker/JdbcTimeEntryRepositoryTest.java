@@ -2,9 +2,9 @@ package test.pivotal.pal.tracker;
 
 
 import com.mysql.cj.jdbc.MysqlDataSource;
-import io.pivotal.pal.tracker.JdbcTimeEntryRepository;
-import io.pivotal.pal.tracker.TimeEntry;
-import io.pivotal.pal.tracker.TimeEntryRepository;
+import io.piotal.pal.traker.JdbcTimeEntryRepository;
+import io.piotal.pal.traker.TimeEntry;
+import io.piotal.pal.traker.TimeEntryRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.jdbc.core.JdbcTemplate;
